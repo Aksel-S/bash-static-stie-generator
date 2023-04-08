@@ -31,5 +31,5 @@ Next make gen.sh and templates.sh executable.
 To generate your site run ./gen
 
 ## To Do
-[ ] Convert project into a makefile
-[ ] Add support for the gemini protocol
+* Convert project into a makefile
+* Add support for the gemini protocol

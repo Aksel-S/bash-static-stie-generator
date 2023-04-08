@@ -1,0 +1,34 @@
+/* A Simple style sheet to work as a base or to erase and make your own */
+
+body {
+  max-width: 80ch;
+  margin: 0 auto;
+  font-size: 1.2em;
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, serif;
+  padding: 0.5em;
+  background: whitesmoke;
+  color: #111;
+}
+
+header,footer{text-align:center;margin: 1em 0 1em;}
+
+/* This adds a dark theme*/
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #151515;
+        color: #ddd;
+    }
+    a {color:aquamarine};
+
+}
+/* This is a style for images within paragraphs*/
+p > img {
+	max-width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 0.5rem;
+}
+/* this styles the reply to email and find more articles at the bottom of blog posts*/
+#left{text-align:left;float:left;}
+#right{text-align:right;float:right;}

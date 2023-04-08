@@ -9,7 +9,7 @@ A static site generator written in bash with a chicken theme.
 * Dead Simple
 
 ## Example file layout
-
+```
 ├── articles # These are the articles
 │   ├── over-easy
 │   │   └── index.md
@@ -23,7 +23,7 @@ A static site generator written in bash with a chicken theme.
 ├── output # This is where all the files are exported to
 ├── templates.sh # This has templates for the Homepage the article pages and index pages
 └── gen.sh # This is the configuration file and where everything is run
-
+```
 # How to use
 First install [lowdown](https://kristaps.bsd.lv/lowdown/) It should be available from your package manager.
 

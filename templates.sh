@@ -159,7 +159,7 @@ for post in "${posts[@]}" ; do
     article="$(lowdown "$file")"
     file="${file##*/output/}"
     file="${file%index.md}"
-    link="$url/articles/$file"
+    link="$url/$file"
 cat << EOF
 <item>
 <title>$title</title>

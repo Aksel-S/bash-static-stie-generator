@@ -27,4 +27,5 @@ A static site generator written in bash with a chicken theme.
 # How to use
 First install [lowdown](https://kristaps.bsd.lv/lowdown/) It should be available from your package manager.
 
+Next make gen.sh and templates.sh executable.
 To generate your site run ./gen
